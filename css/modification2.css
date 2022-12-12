@@ -1,0 +1,17 @@
+
+a.inline-view-btn {
+    border-radius: 0.5rem;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    color: #fff;
+    margin-top: 1rem;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    background-color: var(--oragen);
+}
+
+a.inline-view-btn:hover{
+    background-color: var(--black);
+    color: var(--white);
+}

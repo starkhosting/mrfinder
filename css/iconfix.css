@@ -1,0 +1,29 @@
+i.fas.fa-briefcase {
+    margin-right: 1rem;
+    color: var(--main-color);
+}
+
+i.fas.fa-map-marker-alt {
+    
+    color: var(--main-color);
+}
+
+
+/* post Rs */
+h2 {
+    font-size: 2rem;
+    color: var(--main-color);
+    
+}
+
+h2 span {
+    margin-right: 1rem;
+}
+
+
+.fa-map-marker-alt:before {
+   
+    padding-right: 1rem;
+ }
+ 
+ 

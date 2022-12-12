@@ -1,0 +1,90 @@
+form.add-comment {
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+}
+
+form.add-comment textarea {
+    border-radius: 0.5rem;
+    padding: 1.4rem;
+    width: 100%;
+    height: 20rem;
+    background-color: var(--light-bg);
+    resize: none;
+    font-size: 1.8rem;
+    color: var(--black);
+}
+
+.show-comments {
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    display: grid;
+    gap: 2.5rem;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h3 {
+    font-size: 2rem;
+    color: var(--black);
+    margin-bottom: 0.2rem;
+}
+
+span {
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+
+p.text {
+    /* font-size: 2rem; */
+    /* color: var(--black); */
+    /* padding: 0 1rem; */
+    /* display: inline-block; */
+    border-radius: 0.5rem;
+    background-color: var(--light-bg);
+    padding: 1rem 1.5rem;
+    color: var(--black);
+    margin: 0.5rem 0;
+    position: relative;
+    z-index: 0;
+    white-space: pre-line;
+    font-size: 1.8rem;
+}
+
+section.edit-comment {
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+textarea.box {
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 1.4rem;
+    font-size: 1.8rem;
+    color: var(--black);
+    background-color: var(--light-bg);
+    resize: none;
+    height: 20rem;
+}
+
+.flex {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
